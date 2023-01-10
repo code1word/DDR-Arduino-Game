@@ -10,6 +10,6 @@ This is the arduino code we wrote for our Spring 2022 Art of Engineering design 
 
 **DDR_Game.cpp:** The Arduino sketch containing the main driver code. It configures the different ports, triggers the LCD welcome, handles all the logic for gameplay and arrow detection, plays the music, updates the arrow fall speed, and displays the game over animation.
 
-**Generate_Arrow.cpp:** Includes includes functions to plot up, down, left, and right-oriented arrows on the panel. It also handles cases where parts of the arrow are off-screen.
+**Generate_Arrow.cpp:** Includes utility functions to plot up, down, left, and right-oriented arrows on the panel. It also handles cases where parts of the arrow are off-screen.
 
 **LCD_Introduction.cpp:** File that contains the `lcd_introduce()` function, which displays "Welcome player, the game will start in 5... 4... 3... 2... 1... GO!!!"
